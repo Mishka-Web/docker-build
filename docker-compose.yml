@@ -18,6 +18,7 @@ services:
       - ./www:/var/www/html
       - ./logs/php:/var/log/php
       - ./tools/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+      - ./docker/php/conf.d/timezone.ini:/usr/local/etc/php/conf.d/timezone.ini
     environment:
       XDEBUG_MODE: debug
       XDEBUG_START_WITH_REQUEST: yes
