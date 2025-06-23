@@ -36,6 +36,6 @@ make up
 
 ```cmd
 scripts\install-wordpress.bat
-make.bat up
-make.bat install-wp
+make install-wp
+make up
 ```
