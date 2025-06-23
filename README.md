@@ -20,3 +20,22 @@ make up
 ```
 
 Access: http://localhost:8000 (site), http://localhost:8081 (phpMyAdmin)
+
+---
+
+## 🪟 Windows Support
+
+### Option 1: Run with Git Bash
+
+```bash
+./scripts/install-wordpress.sh
+make up
+```
+
+### Option 2: Use CMD / PowerShell
+
+```cmd
+scripts\install-wordpress.bat
+make.bat up
+make.bat install-wp
+```
